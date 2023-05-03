@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+.vehicleSectionsTop {
+	margin-top: 25px;
+	display: inline-grid;
+	grid-template-columns: max-content max-content;
+	/*grid-template-rows: 425px;*/
+	grid-template-rows: 175px;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 3px;
+	justify-content: center;
+	justify-items: center;
+}
+
+.vehicleSectionsBottom {
+	margin-top: 30px;
+	display: inline-grid;
+	grid-template-columns: max-content max-content;
+	/*grid-template-rows: 400px;*/
+	grid-template-rows: 175px;
+	grid-template-columns: 30% 30% 30%;
+	grid-gap: 3px;
+	justify-content: center;
+	justify-items: center;
+}
+
+.vehicleSectionsTop label {
+	margin: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.vehicleSectionsTop li {
+	margin: 5px;
+	font-size: 17px;
+}
+.vehicleSectionsBottom label {
+	margin: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.vehicleSectionsBottom li {
+	margin: 5px;
+	font-size: 17px;
+}
+
+/*
+.vehicleSectionsTop img{
+	max-width: 250px;
+}
+.vehicleSectionsBottom img{
+	max-width: 250px;
+}*/
+
+
+.Vehi {
+	padding-top: 20px;
+	width: 90%;
+	max-width: 300px;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	transition-duration: 0.4s;	
+}
+.Vehi:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+
+.btn {
+	cursor: pointer;
+	border: none;
+	background-color: white;
+}
+.btn:hover {
+	color: blue;
+	font-size: 17px;
+}
+
+
+.vehicleSectionsTop input[type=text] {
+	border: none;
+	margin: auto;
+	padding: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+.vehicleSectionsBottom input[type=text] {
+	border: none;
+	margin: auto;
+	padding: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.vehicleSectionsTop input[type=submit] {
+	border: none;
+	margin: auto;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	
+}
+.vehicleSectionsTop input[type=submit]:hover {
+	/*background-color: #00cc66;*/
+	background-color: blue;
+	cursor: pointer;
+}
+.vehicleSectionsBottom input[type=submit] {
+	border: none;
+	margin: auto;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	
+}
+.vehicleSectionsBottom input[type=submit]:hover {
+	/*background-color: #00cc66;*/
+	background-color: blue;
+	cursor: pointer;
+}
+
+
+
+
+.userClickView {
+	border: 5px solid;
+	padding: 25px;
+	margin-top: 50px;
+	width: 50%;
+}
+#upL {
+	margin-bottom: 10px;
+}
+
